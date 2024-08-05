@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "start": "nuxt dev",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@storyblok/design-system": "^3.25.1",
+    "@vueform/multiselect": "^2.6.7",
+    "@vueform/slider": "^2.1.10",
+    "dataset-generator": "^1.0.4",
+    "nanoid": "^5.0.4",
+    "nuxt": "^3.8.2",
+    "nuxt-svgo": "^3.7.0",
+    "swiper": "^11.0.7",
+    "video.js": "^8.6.1",
+    "vue": "^3.3.8",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.0",
+    "@storybook/addon-essentials": "^8.1.11",
+    "@storybook/addon-interactions": "^8.1.11",
+    "@storybook/addon-links": "^8.1.11",
+    "@storybook/blocks": "^8.1.11",
+    "@storybook/manager-api": "^8.2.6",
+    "@storybook/test": "^8.1.11",
+    "@storybook/vue3": "^8.1.11",
+    "@storybook/vue3-vite": "^8.1.11",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "sass": "^1.77.4",
+    "storybook": "^8.1.11",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.3"
+  }
+}
